@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$primary: #3c308c;
+$maroon: #bf246d;
+$maroon-dark: #b52c63;
+$indigo: #d1a1ff;
+$indigo-bright: #bc79fc;
+$indigo-dark: #6e0af1;
+$indigo-light: #EAE6F2;
+$bg-light: #f2f2f2;
+$white: white;
+$gray:#f6f2fe;
+// gradients
+$btn-gradient: linear-gradient(90deg, #412c88, #9d298c, #a32689);

@@ -1,0 +1,25 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341 323" width="341" height="323">
+	<title>all-cloud-svg</title>
+	<defs>
+		<image width="512" height="512" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIAAQMAAADOtka5AAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAAA2SURBVHic7cEBAQAAAIIg/69uSEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHwbggAAAdJ4ifAAAAAASUVORK5CYII="/>
+		<image width="51" height="32" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAgCAMAAACIPbAtAAAAAXNSR0IB2cksfwAAAhNQTFRFAAAAQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQjhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQTtvQzhsQzhsQzhsQzhsQzhsQTltQzhsQzhsQzhsQzhsRTpoQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsRDNmQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsSUltQjlsQzhsQzhsPz9fQzhsQzdsQzhsQjdvQzhsQzhsQzhsQzhsQzhsQzhsQTZqQzhsQzhsQzhsQzhsQzhsQzhsQzdsQzhsQzhsQzhsQzhsRDhsQzhsQjdrQzhsQzhsQjhsQzhsQzhsQzhsQzhsQzhsQzdsQzhsQjdsQzhsQzhsQzhsQzhsQzhsQzhsQzlsQzhsQzhsQzhsQjdtQzhsQzhsQzhsQzhsRS50QzhtQzhsQjltQzhsQzhsQzhsQzhsQzhsQzhsQzhsQjhsQzhsQzhsQzhsQzhsQzhsQzhsQzdsQzhsQzhsQzdtQzhsQzhsQzhsQzhsQzhsQzhsQzhsQzhsQjluQzhsQzhsQzhsQzhsQzhsHMNtHQAAALF0Uk5TAAU1kM3m7+TBgyMDL7j3//OlFwZ39Ys5GQ8dSJrw7U0Ae/v5lxoAJ672TgAWMkUmC2L49FkBfP0tKqDq23MCwgAHevry1LK94K3iVoejJAQADEtrswABJQ4AGw/QACID1/7GEADRLrDj5W8A6+mZOgczAz3uAH0eEeeUBSwBlRzK8dOAARLejwHHNCn8AALhAlJcwEPME0wCiF1Hwx/fAezoAxV/UTxqsbTOAVCMqKqfZCyu3gAAAexJREFUeJxjYMADGJmYWVjZ2Dk4ubjxKUMGPLx8/BAgIChElA5hEVF+djFxCUkpaRlZfjl5IrQoKCopq6hC2GrqGvyaWngUa+voaunpGxgaGZsgBE3NzGUtcGqxtLI25+c3srFWsrVDEmYU5Ld3wK7D0cmZ38XVzd1Did8TNawMvPi9sevxUXL29fNnCAgMEtRFkwrmDwnFpkXa3MgkDIejw/m8ItCEIgOloqJj+G1jcWhhMPDQjEPmx+tyJiSCIi8pGZcWhpRU/jQkblS6Mz+/ZkamM38WTi0MAch6sply+HPz8uMZGAoKi3DrQXFbcQm/p0QpbsVQEM7HV1YOZVdU8ldVE9TBwFDDBoxqH3DQ1dbxc/gToYXBtD7IU4m/IQrI9HNp1CdGCxjoNvG7BjIwNPPLtBCth6G1jb+9g6GTv5h4LQwMXcYC3Qw5/LijEQswleFnZlDq6SVFD4M4fxODkXkfSXoq+F0Y+vmlSNIzgd+cgZd/Isn2TEqczEiKnin8UxmmZShPJ0HLDF/+mQwMs/hzo4jXM9uoBJhQGTn455QTVgwBc+fxc84H0q2T+RdMkiRGh+P0hfyTF4GZi0PMEzuXLF0mjh9MWb5CiX+lBFS/6aRVyvxEgMR5IqsRthqsWbtuPSGwYTnE3wDGsXkbB9LdBAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: none;stroke: #3e2d8c;stroke-width: 3 } 
+		.s1 { fill: #f4f0fc;stroke: #3e2d8c;stroke-width: 10 } 
+		.s2 { fill: #f4f0fc;stroke: #3e2d8c;stroke-width: 2.1 } 
+	</style>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,-121,-94)"/>
+	<path id="Outline" class="s0" d="m8 25c0-11 9-20 20-20h213c11 0 20 9 20 20v274c0 11-9 20-20 20h-213c-11 0-20-9-20-20z"/>
+	<g id="Lines">
+		<path id="Shape 2" class="s0" d="m47 102.1v-1h169.1v1z"/>
+		<path id="Shape 2 copy" class="s0" d="m47 232.1v-1h169.1v1z"/>
+		<path id="Shape 2 copy 5" class="s0" d="m48 262.1v-1h102.1v1z"/>
+		<path id="Shape 2 copy 2" class="s0" d="m47 202.1v-1h169.1v1z"/>
+		<path id="Shape 2 copy 3" class="s0" d="m47 172.1v-1h169.1v1z"/>
+		<path id="Shape 2 copy 4" class="s0" d="m47 137.1v-1h169.1v1z"/>
+	</g>
+	<path id="Shape 3" class="s1" d="m261.5 215c-39 0-70.5-31.5-70.5-70.5 0-39 31.5-70.5 70.5-70.5 39 0 70.5 31.5 70.5 70.5 0 39-31.5 70.5-70.5 70.5z"/>
+	<path id="Shape 3 copy" class="s2" d="m262.5 181c-20.7 0-37.5-16.8-37.5-37.5 0-20.7 16.8-37.5 37.5-37.5 20.7 0 37.5 16.8 37.5 37.5 0 20.7-16.8 37.5-37.5 37.5z"/>
+	<use id="img2" href="#img2" transform="matrix(1,0,0,1,236,126)"/>
+</svg>

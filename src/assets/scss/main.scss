@@ -1,0 +1,175 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+@import './vars';
+@import './home';
+@import './privacy';
+
+body {
+  background-color: $bg-light;
+  font-family: 'Lexend', sans-serif;
+}
+
+button {
+  padding: 7px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-gradient {
+  background: $btn-gradient;
+  color: $white;
+  border: none;
+}
+
+.btn-primary {
+  background: white;
+  border: none;
+  color: $primary;
+}
+
+.btn-secondary {
+  background: $indigo-bright;
+  border: none;
+}
+
+.btn-tertiary {
+  background: $indigo-dark;
+  border: none;
+}
+
+.btn-light {
+  background: $bg-light;
+  border: 1px solid $maroon-dark;
+  color: $indigo-dark;
+  padding: 5px 14px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: $maroon-dark;
+    color: $white;
+  }
+}
+
+.btn-light-gradient {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+  $border: 2px;
+  color: $indigo-dark;
+  font-weight: 500;
+  background: $bg-light;
+  background-clip: padding-box;
+  border: solid $border transparent;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -$border;
+    border-radius: inherit;
+    background: $btn-gradient;
+  }
+
+  &:hover {
+    background: $btn-gradient;
+    color: $white;
+    border: none;
+  }
+}
+
+.btn-ghost {
+  background: transparent;
+  border: none;
+  padding: 5px 14px;
+}
+
+.btn-rounded {
+  border-radius: 50px;
+}
+
+.center-odd {
+  img:nth-child(3) {
+    margin: auto;
+    grid-column: 2 / 4;
+    width: calc(50%);
+    justify-items: center;
+    justify-content: center;
+    grid-row: 2;
+  }
+}
+
+.slick-track {
+  display: flex !important;
+  flex-wrap: wrap;
+  > div {
+    flex: 1;
+  }
+}
+.slick-slide {
+  height: auto;
+  > div {
+    margin: auto 10px;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 1;
+  background: $indigo-dark;
+  color: $white;
+  border-radius: 50%;
+  padding: 10px;
+  &:before {
+    content: '';
+  }
+}
+
+.slick-next {
+  right: 0;
+  z-index: 1;
+  background: $indigo-dark;
+  color: $white;
+  border-radius: 50%;
+  padding: 10px;
+  &:before {
+    content: '';
+  }
+}
+
+.slick-dots {
+  bottom: 0;
+  li {
+    button {
+      &:before {
+        color: $indigo-dark;
+      }
+    }
+  }
+}
+
+.bg-blog {
+  background: $gray;
+}
+
+.p-feature {
+  padding: 0 100px;
+  margin-bottom: 20px;
+}
+
+.dd-feature {
+  padding: 0 50px;
+}
