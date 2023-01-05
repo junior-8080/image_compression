@@ -19,12 +19,14 @@ export default function Tools({
 
   useEffect(() => {
     if (workOptions) {
-      const actionButtons = Object.keys(workOptions);
+      // const actionButtons = Object.keys(workOptions);
+      const actionButtons = workOptions;
       setSelectedTools(actionButtons);
       setAllOptions(actionButtons);
     }
   }, [workOptions]);
-
+   
+   // eslint-disable-next-line
   const loadSubOptions = (action) => {
     const subOptions = workOptions[action];
     setSelectedOption(action);
@@ -41,12 +43,12 @@ export default function Tools({
     return reset();
   };
 
-  const transform = (action) => {
-    if (!isSubOptions) {
-      return loadSubOptions(action);
-    }
-    handleTransform({ work: selectedOption, options: action });
-  };
+  // const transform = (action) => {
+  //   if (!isSubOptions) {
+  //     return loadSubOptions(action);
+  //   }
+  //   handleTransform({ work: selectedOption, options: action });
+  // };
 
   return (
     <div className="flex flex-col">
@@ -78,7 +80,7 @@ export default function Tools({
               <Button
                 kind={isSubOptions ? "primary" : "secondary"}
                 className="rounded-lg font-semibold text-base mb-6 py-2 w-1/2"
-                onClick={() => transform(action)}
+                onClick={() => handleTransform(action)}
               >
                 {action}
               </Button>

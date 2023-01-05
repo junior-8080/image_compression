@@ -5,7 +5,8 @@ import Tools from "./Tools";
 import Upload from "./Upload";
 import axios from "axios";
 
-const url = "https://66630c49-47c9-4ff2-b4f3-c33d6185d982.mock.pstmn.io";
+// const url = "https://66630c49-47c9-4ff2-b4f3-c33d6185d982.mock.pstmn.io";
+const url = "http://localhost:3002";
 
 export default function Header() {
 	const [files, setFiles] = useState([]);
@@ -31,7 +32,6 @@ export default function Header() {
 				"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 				"application/msword",
 			];
-
 			files.forEach((file) => {
 				if (!acceptedFiles.includes(file.type)) {
 					setFiles((prev) => {
@@ -45,7 +45,7 @@ export default function Header() {
 
 			const { data } = await axios.post(
 				`${url}/verify`,
-				{ files: formData },
+				formData,
 				{
 					headers: {
 						"Content-Type": "multipart/form-data",
@@ -54,7 +54,6 @@ export default function Header() {
 			);
 
 			data.files = files;
-
 			setResponse(data);
 			setLoading(false);
 		} catch (error) {
@@ -71,15 +70,23 @@ export default function Header() {
 	};
 
 	const handleTransform = async (options) => {
-		console.log("<<<<<<<<<>>>>>>>>>>.....",options)
+
+		let path = "";
+		switch (options) {
+			case 'Remove Background':
+				path = '/remove-bg'
+				break;
+			default:
+				path = '/work'
+				
+		}
 		try {
 			setLoading(true);
 			setErrors(null);
-			const { data } = await axios.post(`${url}/work`, {
-				...options,
-				files: response.files,
-			});
-			setTransformed(data);
+			const formdata = new FormData()
+			files.forEach(el => formdata.append('file' , el))
+			const { data } = await axios.post(`${url}/${path}`,formdata,{responseType : 'blob' , headers:{}});
+			setTransformed({file : URL.createObjectURL(data)});
 			setLoading(false);
 		} catch (error) {
 			setErrors(error.message);

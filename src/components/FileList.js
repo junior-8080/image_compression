@@ -1,6 +1,6 @@
 import React from "react";
 import { XMarkIcon, CheckIcon } from "@heroicons/react/20/solid";
-import Upload from "./Upload";
+// import Upload from "./Upload";
 import { icons } from "data/icons";
 import { motion } from "framer-motion";
 
@@ -51,7 +51,7 @@ const FilesList = ({
           </motion.li>
         ))}
       </ul>
-      <div className="h-1/4">
+      {/* <div className="h-1/4">
         {!transformed && (
           <Upload handleChange={handleChange} errors={errors}>
             {errors ? (
@@ -68,7 +68,7 @@ const FilesList = ({
             )}
           </Upload>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };
